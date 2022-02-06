@@ -41,7 +41,6 @@ header {
 @media (max-width: 426px) {
   .h1 {
     padding: 30px 0 0;
-    transform: translateY(20%);
   }
 }
 
@@ -106,7 +105,7 @@ header {
 @media (max-width: 426px) {
   .numbers {
     padding: 15px 20px;
-    transform: translateY(35%);
+    transform: translateY(15%);
   }
 }
 
@@ -161,7 +160,7 @@ header {
 
 @media (max-width: 426px) {
   .second {
-    padding-top: 350px;
+    padding-top: 200px;
   }
 }
 
@@ -277,12 +276,6 @@ header {
   }
 }
 
-@media (max-width: 426px) {
-  .poloska2 {
-    margin-top: 50px;
-  }
-}
-
 .poloska-flex {
   display: flex;
   justify-content: space-between;
@@ -376,6 +369,8 @@ a {
   padding: 150px 0 0;
 }
 
+
+
 .text4 {
   font-weight: 500;
   font-size: 36px;
@@ -422,6 +417,12 @@ a {
   text-align: center;
 }
 
+@media (max-width: 426px){
+   .dom{
+      padding: 100px 0 0;
+   }
+}
+
 .dom1 {
   width: 25%;
   height: auto;
@@ -459,6 +460,12 @@ a {
 
 .question {
   padding-top: 150px;
+}
+
+@media (max-width: 426px){
+   .question{
+      padding-top: 100px;
+   }
 }
 
 .quest {
@@ -557,6 +564,12 @@ justify-content: space-around;
 
 .feed {
   padding-top: 150px;
+}
+
+@media (max-width: 426px){
+   .feed{
+      padding-top: 100px;
+   }
 }
 
 .feedback {
@@ -708,6 +721,12 @@ justify-content: space-around;
 .poloska-footer {
   background: #404149;
   margin-top: 150px;
+}
+
+@media (max-width: 426px){
+   .poloska-footer{
+      margin-top: 100px;
+   }
 }
 
 .footer {
